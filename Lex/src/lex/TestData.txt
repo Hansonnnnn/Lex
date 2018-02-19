@@ -1,0 +1,4 @@
+    public static void main(String[] args){
+        lex.stateTable = IOHelper.getStateData(lex.stateTableFilePath);
+        lex.process({'abc'});
+    }
